@@ -2,9 +2,9 @@
 This is Group 33's project during Hackathon 2 which is a C++ text-based game.
 
 Group members :
-Muhammad Faiq Fadhlullah
-Arif Arman bin Mazlan
-Nuraziyatul Najuwa binti Azli
+1. Muhammad Faiq Fadhlullah  
+2. Arif Arman bin Mazlan  
+3. Nuraziyatul Najuwa binti Azli  
 
 # LOST ECHOES
 
