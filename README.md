@@ -8,7 +8,17 @@ Group members :
 
 # LOST ECHOES
 
-## DESCRIPTION
+## TABLE OF CONTENTS ##
+- [DESCRIPTION](#DESCRIPTION)
+- [FEATURES](#FEATURES)
+- [HOW TO PLAY](#HOW-TO-PLAY)
+- [OBJECT-ORIENTED CONCEPT USED](#OBJECT-ORIENTED-CONCEPT-USED)
+- [THE ROLE PLAY OF LINKED LIST](#THE-ROLE-PLAY-OF-LINKED-LIST)
+- [GAME DESIGN](#GAME-DESIGN)
+- [GAME DEMO VIDEO](#GAME-DEMO-VIDEO)
+- [CODES](#CODES)
+
+## DESCRIPTION ##
 "Lost Echoes" is an immersive text-based adventure game that takes players on a captivating journey of self-discovery and survival. Set within the mysterious confines of an enigmatic cave, the game introduces a protagonist who awakens with no memory of their past or how they ended up there.
 
 As the protagonist, players choose their class from three distinct options: warrior, mage, or thief. Each class offers unique abilities and backgrounds, adding depth to the character's story. With their chosen class, players embark on a quest to unravel the truth behind their imprisonment in the cave and find a way back home.
