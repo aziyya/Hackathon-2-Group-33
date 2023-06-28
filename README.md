@@ -41,7 +41,7 @@ Some features of the game :
   
 - **Puzzle Solving**: Include various puzzles and challenges throughout the cave, requiring players to possess mathematics knowledge and guessing ability.
 
-- **Item Collection and Crafting**: Allow players to discover and collect items during their exploration. These items can be used to solve puzzles, unlock new areas, or craft useful tools and weapons.
+- **Item Collection and Crafting**: Allow players to discover and collect items during their exploration. These items can be used to solve puzzles and unlock new areas.
 
 - **Resource Management**: Introduce a resource management aspect where players need to manage their character's health, stamina, and inventory space. Finding items that can give benefits along the journey of the escape.
   
