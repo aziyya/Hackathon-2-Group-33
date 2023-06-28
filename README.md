@@ -6,7 +6,7 @@ Group members :
 2. Arif Arman bin Mazlan  
 3. Nuraziyatul Najuwa binti Azli  
 
-# (_LOST ECHOES_)`rgb(160,160,160)`
+# _LOST ECHOES_ :mage:
 
 ## TABLE OF CONTENTS ##
 - [DESCRIPTION](#DESCRIPTION)
