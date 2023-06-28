@@ -122,7 +122,7 @@ Overall, the linked list data structure plays a crucial role in managing both th
 ![Lost Echoes Game Design](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Lost%20Echoes.png)
 
 ## GAME DEMO VIDEO  📹
-[Lost Echoes Demo Video]()
+[Lost Echoes Demo Video](https://youtu.be/XsxAONf70Og)
 
 ## CODES  🖥️
 Player data   
