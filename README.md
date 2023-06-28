@@ -21,7 +21,7 @@ Group members :
 ## DESCRIPTION ##
 "Lost Echoes" is an immersive text-based adventure game that takes players on a captivating journey of self-discovery and survival. Set within the mysterious confines of an enigmatic cave, the game introduces a protagonist who awakens with no memory of their past or how they ended up there.
 
-As the protagonist, players choose their class from three distinct options: warrior, mage, or thief. Each class offers unique abilities and backgrounds, adding depth to the character's story. With their chosen class, players embark on a quest to unravel the truth behind their imprisonment in the cave and find a way back home.
+With the determination, players embark on a quest to unravel the truth behind their imprisonment in the cave and find a way back home.
 
 The game unfolds across four engrossing chapters, each unveiling new layers of the protagonist's identity and purpose. Starting with their awakening in darkness, players navigate the treacherous cave, solving puzzles, avoiding traps, and facing unexpected challenges. Along the way, they discover clues, encounter remnants of previous inhabitants, and gather fragments of memories that shed light on their past.
 
@@ -31,7 +31,7 @@ As the story progresses, the protagonist uncovers a sinister plot and encounters
 
 ## FEATURES
 Some features of the game :
-1. Character Customization: 'Lost Echoes' allows players to choose their character's class which is either warrior, mage or thief at the start of the game. The players will obtain different skills and items according to their character's class.
+1. Character Customization: 'Lost Echoes' allows players to name the protagonist with whatever name they like.
 
 2. Exploration: This game is set in a detailed cave environment with multiple interconnected rooms and passages to explore. Players can navigate through the cave, discovering hidden areas, secrets, and clues.
 
@@ -39,20 +39,27 @@ Some features of the game :
 
 4. Combat System: Implement turn-based or real-time combat mechanics for encounters with enemies and the powerful individual guarding the exit. Different classes may have unique abilities and playstyles.
 
-5. Puzzle Solving: Include various puzzles and challenges throughout the cave, requiring players to solve riddles, find hidden objects, or manipulate the environment to progress.
+5. Puzzle Solving: Include various puzzles and challenges throughout the cave, requiring players to possess mathematics knowledge and guessing ability.
 
 6. Item Collection and Crafting: Allow players to discover and collect items during their exploration. These items can be used to solve puzzles, unlock new areas, or craft useful tools and weapons.
 
 7. Resource Management: Introduce a resource management aspect where players need to manage their character's health, stamina, and inventory space. Finding food, water, and restorative items becomes crucial for survival.
 
+8. Save and Load Management : Save and load feature is implemented to allow players to save their progress and later resume the game from where they left off. 
+
 ## HOW TO PLAY
 
 ## OBJECT-ORIENTED CONCEPTS USED
-The object-oriented concepts used in this text-based game is linked list.
+The object-oriented concepts used in this text-based game is linked list. The linked lists are used to implementing save and load feature of the game and store the inventory of the items in inventory of the player. 
+
+Implementing save and load functionality using a linked list in a game involves storing the game data in a linked list structure and then serializing/deserializing the linked list to save/load the game progress.
+
+By using the linked list, the game can manage the player's inventory efficiently. The player can add items, display them, and remove them as needed, ensuring a dynamic and flexible inventory system throughout the game.
 
 ## THE ROLE PLAY OF LINKED LIST
 
 ## GAME DESIGN
+
 
 ## GAME DEMO VIDEO
 
