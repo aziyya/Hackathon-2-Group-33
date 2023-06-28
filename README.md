@@ -59,7 +59,7 @@ By using the linked list, the game can manage the player's inventory efficiently
 ## THE ROLE PLAY OF LINKED LIST
 
 ## GAME DESIGN
-
+![Lost Echoes Game Design](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Lost%20Echoes.png)
 
 ## GAME DEMO VIDEO
 
