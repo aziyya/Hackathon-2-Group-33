@@ -50,7 +50,7 @@ Some features of the game :
 - **Choice-driven Outcomes** : Players will be able to make choices at certain points in the game. Each choice will play a role in determining the story that the player will experience. So, each playthrough is a new experience that the player can explore and experience.
 
 ## INCOMPLETE FEATURES 
-Features we wish to implement in this game :
+Feature we wish to implement in this game :
 - Character Customization : Implementing character that can be customized by including different class of players such as warriors, mage, thief and so on. Each class character possess unique back story and abilities.
 
 ## HOW TO PLAY  🎮
