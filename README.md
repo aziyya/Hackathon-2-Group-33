@@ -78,7 +78,7 @@ In chapter 4, the player will encounter a powerful individual assigned to preven
 As the game is text-based, so the player should immerse themself in the descriptive narratives and let their imagination bring the world of "Lost Echoes" to life. Enjoy the journey of self-discovery, uncovering the mysteries that lie within the depths of the cave.
 
 ## OBJECT-ORIENTED CONCEPTS USED  📜
-“Lost Enchoes” game use of several object-oriented concepts in the development of the game. Here are some of the key object-oriented concepts utilized:
+“Lost Echoes” game use of several object-oriented concepts in the development of the game. Here are some of the key object-oriented concepts utilized:
 
 - **Classes and Objects:**
 In this game, we defines several classes such as Inventory, Item, Player, SaveManager, ChapterManager etc. These classes serve as blueprints for creating objects that encapsulate data and behavior related to specific entities in the game.
