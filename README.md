@@ -45,7 +45,13 @@ Some features of the game :
 
 - **Resource Management**: Introduce a resource management aspect where players need to manage their character's health, stamina, and inventory space. Finding items that can give benefits along the journey of the escape.
   
-- **Save and Load Management** : Save and load feature is implemented to allow players to save their progress and later resume the game from where they left off. 
+- **Save and Load Management** : Save and load feature is implemented to allow players to save their progress and later resume the game from where they left off.
+
+- **Choice-driven Outcomes** : Players will be able to make choices at certain points in the game. Each choice will play a role in determining the story that the player will experience. So, each playthrough is a new experience that the player can explore and experience.
+
+## INCOMPLETE FEATURES 
+Features we wish to implement in this game :
+- Character Customization : Implementing character that can be customized by including different class of players such as warriors, mage, thief and so on. Each class character possess unique back story and abilities.
 
 ## HOW TO PLAY  🎮
 ‘Lost Echoes’ is a text-based adventure game whereby the goal of this game is to uncover the truth about the player’s identity and the secrets hidden within while trying to escape the cave. 
@@ -76,7 +82,7 @@ As the game is text-based, so the player should immerse themself in the descript
 
 - **Classes and Objects:**
 In this game, we defines several classes such as Inventory, Item, Player, SaveManager, ChapterManager etc. These classes serve as blueprints for creating objects that encapsulate data and behavior related to specific entities in the game.
-For example, the Item class represents a game item and encapsulates its attributes like item name, item uses, and level item. The Inventory class represents the player's inventory and provides methods to manage items within it. The PlayerData class encapsulates the player's data and actions, such as adding items to the inventory and setting the current chapter.
+For example, the Item class represents a game item and encapsulates its attributes like item name, item uses, and level item. The Inventory class represents the player's inventory and provides methods to manage items within it. The Player class encapsulates the player's data and actions, such as adding items to the inventory and setting the current chapter.
 By using classes, the code achieves encapsulation and modularity, allowing different entities and functionalities to be implemented and maintained separately.
 
 - **Encapsulation:**
@@ -102,7 +108,7 @@ While the provided code doesn't explicitly showcase abstraction, it could be emp
 These object-oriented concepts collectively contribute to the development of a well-structured, modular, and maintainable game. They facilitate code reuse, encapsulation, flexibility, and extensibility, ultimately resulting in a more organized and scalable project.
 
 ## THE ROLE PLAY OF LINKED LIST  📜
-For this “Lost Enchoes” game, we use linked-list data structure to manage two important aspects of the game which is Story Progression and the Player’s Inventory.
+For this “Lost Echoes” game, we use linked-list data structure to manage two important aspects of the game which is Story Progression and the Player’s Inventory.
 - **Story Progression:**
 The SaveManager class is responsible for handling the save and load functionality of the game. It uses a linked list to store the game data for each save point. Each node in the linked list, represented by the SaveNode struct, contains the player's data for a particular save.
 When the saveGame function is called, a new SaveNode is created, and the player's data is assigned to it. The new node is then appended to the end of the linked list. Additionally, the game data is serialized and saved to a file using an ofstream.
