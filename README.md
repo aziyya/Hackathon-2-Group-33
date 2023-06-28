@@ -102,7 +102,7 @@ While the provided code doesn't explicitly showcase abstraction, it could be emp
 These object-oriented concepts collectively contribute to the development of a well-structured, modular, and maintainable game. They facilitate code reuse, encapsulation, flexibility, and extensibility, ultimately resulting in a more organized and scalable project.
 
 ## THE ROLE PLAY OF LINKED LIST
-For this “Lost Enchores” game, we use linked-list data structure to manage two important aspects of the game which is Story Progression and the Player’s Inventory.
+For this “Lost Enchoes” game, we use linked-list data structure to manage two important aspects of the game which is Story Progression and the Player’s Inventory.
 - **Story Progression:**
 The SaveManager class is responsible for handling the save and load functionality of the game. It uses a linked list to store the game data for each save point. Each node in the linked list, represented by the SaveNode struct, contains the player's data for a particular save.
 When the saveGame function is called, a new SaveNode is created, and the player's data is assigned to it. The new node is then appended to the end of the linked list. Additionally, the game data is serialized and saved to a file using an ofstream.
