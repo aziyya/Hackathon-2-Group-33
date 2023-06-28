@@ -1,5 +1,5 @@
 # Hackathon-2-Group-33
-This is Group 33's project during Hackathon 2 which is a C++ text-based game.
+This is Group 33's project during Hackathon 2 which is a C++ text-based game titled "Lost Echoes".
 
 Group members :
 1. Muhammad Faiq Fadhlullah  
@@ -31,32 +31,93 @@ As the story progresses, the protagonist uncovers a sinister plot and encounters
 
 ## FEATURES
 Some features of the game :
-1. Character Customization: 'Lost Echoes' allows players to name the protagonist with whatever name they like.
+- **Character Customization**: 'Lost Echoes' allows players to name the protagonist with whatever name they like.
 
-2. Exploration: This game is set in a detailed cave environment with multiple interconnected rooms and passages to explore. Players can navigate through the cave, discovering hidden areas, secrets, and clues.
+- **Exploration**: This game is set in a detailed cave environment with multiple interconnected rooms and passages to explore. Players can navigate through the cave, discovering hidden areas, secrets, and clues.
 
-3. Interactive NPCs: Introduce non-player characters (NPCs) along the journey who can provide quests, information, or aid the player in their escape. Players can engage in conversations and make choices that impact the story.
+- **Interactive NPCs**: Introduce non-player characters (NPCs) along the journey who can provide quests, information, or aid the player in their escape. Players can engage in conversations and make choices that impact the story.
 
-4. Combat System: Implement turn-based or real-time combat mechanics for encounters with enemies and the powerful individual guarding the exit. Different classes may have unique abilities and playstyles.
+- **Combat System**: Implement turn-based or real-time combat mechanics for encounters with enemies and the powerful individual guarding the exit.
+  
+- **Puzzle Solving**: Include various puzzles and challenges throughout the cave, requiring players to possess mathematics knowledge and guessing ability.
 
-5. Puzzle Solving: Include various puzzles and challenges throughout the cave, requiring players to possess mathematics knowledge and guessing ability.
+- **Item Collection and Crafting**: Allow players to discover and collect items during their exploration. These items can be used to solve puzzles, unlock new areas, or craft useful tools and weapons.
 
-6. Item Collection and Crafting: Allow players to discover and collect items during their exploration. These items can be used to solve puzzles, unlock new areas, or craft useful tools and weapons.
-
-7. Resource Management: Introduce a resource management aspect where players need to manage their character's health, stamina, and inventory space. Finding food, water, and restorative items becomes crucial for survival.
-
-8. Save and Load Management : Save and load feature is implemented to allow players to save their progress and later resume the game from where they left off. 
+- **Resource Management**: Introduce a resource management aspect where players need to manage their character's health, stamina, and inventory space. Finding items that can give benefits along the journey of the escape.
+  
+- **Save and Load Management** : Save and load feature is implemented to allow players to save their progress and later resume the game from where they left off. 
 
 ## HOW TO PLAY
+‘Lost Echoes’ is a text-based adventure game whereby the goal of this game is to uncover the truth about the player’s identity and the secrets hidden within while trying to escape the cave. 
+
+**Start of the game:**
+At the start of the game, the menu list is displayed. 
+Type 1 to start the game, 2 to display credits, 3 to display load game and 4 to exit game.
+Read dialogue carefully, pay attention to the surroundings, and use wit and intuition to progress and overcome challenges.
+
+**Chapter 1:**
+In chapter 1, begin in a dark cave and the character tries to make sense of the surrounding, the player will get to give the name to the character and some items can be collected. Then, the player will have to choose within 3 paths to go. Each path has its own story and challenges. It is better for the player to go to all paths.
+After completing the challenges, the player will move on to Chapter 2.
+
+**Chapter 2:**
+In chapter 2, the player will uncover a part of the character’s story by exploring further into the cave and investigating the abandoned area while finding items or remnants that trigger memories of the character’s past, revealing glimpses of their true identity. Here, the player meets NPC (Non-Player Character). The NPC will either help uncover the truth hidden or not, depends on the player’s choice.
+After completing the challenges, the player will move on to Chapter 3.
+
+**Chapter 3:**
+In chapter 3, the player will meet more NPCs and complete the challenges dared by them. For each challenge passed, there are benefits given. In this chapter, all of the truth will be uncovered.
+
+**Chapter 4:**
+In chapter 4, the player will encounter a powerful individual assigned to prevent them from leaving the cave. The player engages in a battle against this formidable enemy, utilizing their combat skills and any assistance the player has acquired throughout their journey. Defeating the individual will lead to the character’s escape from the cave.
+
+As the game is text-based, so the player should immerse themself in the descriptive narratives and let their imagination bring the world of "Lost Echoes" to life. Enjoy the journey of self-discovery, uncovering the mysteries that lie within the depths of the cave.
 
 ## OBJECT-ORIENTED CONCEPTS USED
-The object-oriented concepts used in this text-based game is linked list. The linked lists are used to implementing save and load feature of the game and store the inventory of the items in inventory of the player. 
+“Lost Enchoes” game use of several object-oriented concepts in the development of the game. Here are some of the key object-oriented concepts utilized:
 
-Implementing save and load functionality using a linked list in a game involves storing the game data in a linked list structure and then serializing/deserializing the linked list to save/load the game progress.
+- **Classes and Objects:**
+In this game, we defines several classes such as Inventory, Item, Player, SaveManager, ChapterManager etc. These classes serve as blueprints for creating objects that encapsulate data and behavior related to specific entities in the game.
+For example, the Item class represents a game item and encapsulates its attributes like item name, item uses, and level item. The Inventory class represents the player's inventory and provides methods to manage items within it. The PlayerData class encapsulates the player's data and actions, such as adding items to the inventory and setting the current chapter.
+By using classes, the code achieves encapsulation and modularity, allowing different entities and functionalities to be implemented and maintained separately.
 
-By using the linked list, the game can manage the player's inventory efficiently. The player can add items, display them, and remove them as needed, ensuring a dynamic and flexible inventory system throughout the game.
+- **Encapsulation:**
+Encapsulation is a fundamental principle of object-oriented programming, and it is exemplified throughout the code. Each class encapsulates its own data and provides methods to interact with that data, hiding the internal details and implementation from other parts of the program.
+For instance, the Player class encapsulates the player's data, such as their name, current chapter, and inventory. It provides public methods like addItemToInventory, setCurrentChapter, and viewItemsForFile to control access to and manipulation of the player's data. The internal implementation details of how the data is stored and managed are hidden within the class.
+Encapsulation promotes data abstraction, information hiding, and code organization, enhancing code maintainability and reusability.
+
+- **Composition:**
+Composition is a form of object composition where objects are combined to create more complex objects. Composition could be utilized to build complex game objects by combining simpler objects.
+For example,  Fighter class has composition of Player class where Fighter class can use any function in Player class in their class. In this game, Fighter class use player.viewItemsFromInventory function in his their own function. This composition approach allows for flexible and modular construction of complex objects.
+
+- **Modularity and Code Organization:**
+Object-oriented programming encourages the modular organization of code, dividing it into smaller, manageable components. Each class represents a separate module with its own responsibilities, reducing complexity and improving code maintainability.
+For this game, classes like Inventory, Item, Player, SaveManager, and ChapterManager encapsulate specific functionalities and data related to their respective responsibilities. This modular structure allows for easier comprehension, maintenance, and modification of the codebase.
+
+- **Object Relationships:**
+Object-oriented programming allows for expressing relationships between objects, such as associations, aggregations, and dependencies. These relationships define how objects interact with each other to fulfill specific functionalities.
+In this game, various relationships can be observed. For instance, the Inventory class has a linked list of Item objects to represent the player's inventory. The SaveManager class interacts with the Player class to save and load game states. These relationships enable the code to establish connections and dependencies between different objects, facilitating communication and data exchange.
+
+- **Abstraction:**
+Abstraction is the process of identifying essential features and behaviors while hiding unnecessary details. Object-oriented programming allows for creating abstract classes and interfaces that define common characteristics and operations without specifying their implementation.
+While the provided code doesn't explicitly showcase abstraction, it could be employed to define abstract classes or interfaces for game entities with shared attributes or behaviors. This abstraction allows for defining a common contract that derived classes must adhere to, promoting consistency and providing a clear structure for the codebase.
+These object-oriented concepts collectively contribute to the development of a well-structured, modular, and maintainable game. They facilitate code reuse, encapsulation, flexibility, and extensibility, ultimately resulting in a more organized and scalable project.
 
 ## THE ROLE PLAY OF LINKED LIST
+For this “Lost Enchores” game, we use linked-list data structure to manage two important aspects of the game which is Story Progression and the Player’s Inventory.
+- **Story Progression:**
+The SaveManager class is responsible for handling the save and load functionality of the game. It uses a linked list to store the game data for each save point. Each node in the linked list, represented by the SaveNode struct, contains the player's data for a particular save.
+When the saveGame function is called, a new SaveNode is created, and the player's data is assigned to it. The new node is then appended to the end of the linked list. Additionally, the game data is serialized and saved to a file using an ofstream.
+On the other hand, the loadGame function takes an index parameter representing the desired save point to load. It reads the serialized game data from the corresponding file using an ifstream. The data is then deserialized and used to update the player's current chapter, name, and inventory. The deserialized inventory items are added to the player's inventory by creating new Item objects and using the addItemToInventory function.
+The linked list structure allows for the efficient management of multiple save points, as each node represents a distinct save state. The traversal of the linked list enables the loading of specific save points by accessing the desired node based on the provided index.
+
+- **Player's Inventory:**
+The Inventory class is responsible for managing the player's inventory using a linked list. Each node in the linked list, represented by the Node struct, corresponds to an item in the inventory.
+The addItem function adds a new item to the inventory by creating a new node with the provided Item object and appending it to the end of the linked list. This operation ensures that new items are efficiently inserted at the end of the list, allowing for dynamic storage of the inventory.
+The removeItem function removes a specific item from the inventory. It traverses the linked list, searching for the item to remove. Once found, it updates the pointers of the adjacent nodes to bypass the node containing the item. The memory allocated for the removed item and the node is then freed.
+The viewInventory function iterates through the linked list and displays the information of each item in the inventory. This allows the player to see the contents of their inventory, such as the item's name, usage, and level.
+Other functions like searchItem and reducedItem provide additional functionality related to item management in the inventory. The searchItem function searches for a specific item in the inventory by traversing the linked list and comparing the item's name. The reducedItem function decreases the usage of a specific item in the inventory. If the usage reaches zero, the item is removed from the inventory using the removeItem logic.
+By utilizing a linked list for the player's inventory, the code enables efficient insertion, removal, searching, and updating operations on the items. The linked list structure allows for flexibility in managing the inventory and ensures optimal performance even as the inventory size changes dynamically.
+Overall, the linked list data structure plays a crucial role in managing both the story progression and the player's inventory in the game. It provides an efficient and flexible mechanism for storing, organizing, and manipulating data related to the game's progress and the items in the player's possession.
+
 
 ## GAME DESIGN
 ![Lost Echoes Game Design](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Lost%20Echoes.png)
