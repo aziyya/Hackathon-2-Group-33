@@ -118,10 +118,51 @@ Other functions like searchItem and reducedItem provide additional functionality
 By utilizing a linked list for the player's inventory, the code enables efficient insertion, removal, searching, and updating operations on the items. The linked list structure allows for flexibility in managing the inventory and ensures optimal performance even as the inventory size changes dynamically.
 Overall, the linked list data structure plays a crucial role in managing both the story progression and the player's inventory in the game. It provides an efficient and flexible mechanism for storing, organizing, and manipulating data related to the game's progress and the items in the player's possession.
 
-
 ## GAME DESIGN
 ![Lost Echoes Game Design](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Lost%20Echoes.png)
 
 ## GAME DEMO VIDEO
+[Lost Echoes Demo Video]()
 
 ## CODES
+Player’s data
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.cpp)
+Save Manager
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/save_manager.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/save_manager.cpp)
+Chapter Manager
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/chapter_manager.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/chapter_manager.cpp)
+Inventory
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Inventory.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Inventory.cpp)
+Item
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Item.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Item.cpp)
+Fun Game
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/FunGame.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/FunGame.cpp)
+Fighting
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Fighting.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Fighting.cpp)
+Level 1
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level1.h) 
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level1.cpp) 
+Level 2
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level2.h) 
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level2.cpp) 
+Level 3
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level3.h) 
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level3.cpp) 
+Level 4
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.h)
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.cpp)
+Main 
+[](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/main.cpp)
+Level 4
+https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.h 
+https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.cpp 
+Main 
+https://github.com/aziyya/Hackathon-2-Group-33/blob/main/main.cpp 
+
