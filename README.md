@@ -125,40 +125,40 @@ Overall, the linked list data structure plays a crucial role in managing both th
 [Lost Echoes Demo Video]()
 
 ## CODES
-Player data 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.cpp) 
-Save Manager 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/save_manager.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/save_manager.cpp) 
-Chapter Manager 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/chapter_manager.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/chapter_manager.cpp) 
-Inventory 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Inventory.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Inventory.cpp) 
-Item 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Item.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Item.cpp) 
-Fun Game 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/FunGame.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/FunGame.cpp) 
-Fighting 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Fighting.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Fighting.cpp) 
-Level 1 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level1.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level1.cpp)  
-Level 2 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level2.h)  
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level2.cpp)  
-Level 3 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level3.h)  
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level3.cpp)  
-Level 4 
-[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.h) 
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.cpp) 
-Main  
-[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/main.cpp)  
+Player data   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.cpp)   
+Save Manager   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/save_manager.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/save_manager.cpp)   
+Chapter Manager   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/chapter_manager.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/chapter_manager.cpp)   
+Inventory   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Inventory.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Inventory.cpp)   
+Item   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Item.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Item.cpp)   
+Fun Game   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/FunGame.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/FunGame.cpp)   
+Fighting   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Fighting.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Fighting.cpp)   
+Level 1   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level1.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level1.cpp)    
+Level 2   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level2.h)    
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level2.cpp)    
+Level 3   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level3.h)    
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level3.cpp)    
+Level 4   
+[Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.h)   
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Level4.cpp)   
+Main    
+[Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/main.cpp)    
 
 
