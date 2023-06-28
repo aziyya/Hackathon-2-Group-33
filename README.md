@@ -8,7 +8,7 @@ Group members :man: :man: :woman: :
 
 # _LOST ECHOES_ 🧭
 
-## TABLE OF CONTENTS ## 📂
+## TABLE OF CONTENTS 📂
 - [DESCRIPTION](#DESCRIPTION)
 - [FEATURES](#FEATURES)
 - [HOW TO PLAY](#HOW-TO-PLAY)
@@ -18,7 +18,7 @@ Group members :man: :man: :woman: :
 - [GAME DEMO VIDEO](#GAME-DEMO-VIDEO)
 - [CODES](#CODES)
 
-## DESCRIPTION ## 📍
+## DESCRIPTION  📍
 "Lost Echoes" is an immersive text-based adventure game that takes players on a captivating journey of self-discovery and survival. Set within the mysterious confines of an enigmatic cave, the game introduces a protagonist who awakens with no memory of their past or how they ended up there.
 
 With the determination, players embark on a quest to unravel the truth behind their imprisonment in the cave and find a way back home.
@@ -29,7 +29,7 @@ As the story progresses, the protagonist uncovers a sinister plot and encounters
 
 "Lost Echoes" captivates players with its atmospheric setting, engaging storyline, and the freedom to shape the protagonist's fate. Will you uncover the truth, confront your captor, and find your way back home, or will the echoes of the cave forever haunt your journey? The answers lie within the depths of the darkness, waiting to be discovered.
 
-## FEATURES 🪄
+## FEATURES  🪄
 Some features of the game :
 - **Character Customization**: 'Lost Echoes' allows players to name the protagonist with whatever name they like.
 
@@ -47,7 +47,7 @@ Some features of the game :
   
 - **Save and Load Management** : Save and load feature is implemented to allow players to save their progress and later resume the game from where they left off. 
 
-## HOW TO PLAY 🎮
+## HOW TO PLAY  🎮
 ‘Lost Echoes’ is a text-based adventure game whereby the goal of this game is to uncover the truth about the player’s identity and the secrets hidden within while trying to escape the cave. 
 
 **Start of the game:**
@@ -71,7 +71,7 @@ In chapter 4, the player will encounter a powerful individual assigned to preven
 
 As the game is text-based, so the player should immerse themself in the descriptive narratives and let their imagination bring the world of "Lost Echoes" to life. Enjoy the journey of self-discovery, uncovering the mysteries that lie within the depths of the cave.
 
-## OBJECT-ORIENTED CONCEPTS USED 📜
+## OBJECT-ORIENTED CONCEPTS USED  📜
 “Lost Enchoes” game use of several object-oriented concepts in the development of the game. Here are some of the key object-oriented concepts utilized:
 
 - **Classes and Objects:**
@@ -101,7 +101,7 @@ Abstraction is the process of identifying essential features and behaviors while
 While the provided code doesn't explicitly showcase abstraction, it could be employed to define abstract classes or interfaces for game entities with shared attributes or behaviors. This abstraction allows for defining a common contract that derived classes must adhere to, promoting consistency and providing a clear structure for the codebase.
 These object-oriented concepts collectively contribute to the development of a well-structured, modular, and maintainable game. They facilitate code reuse, encapsulation, flexibility, and extensibility, ultimately resulting in a more organized and scalable project.
 
-## THE ROLE PLAY OF LINKED LIST 📜
+## THE ROLE PLAY OF LINKED LIST  📜
 For this “Lost Enchoes” game, we use linked-list data structure to manage two important aspects of the game which is Story Progression and the Player’s Inventory.
 - **Story Progression:**
 The SaveManager class is responsible for handling the save and load functionality of the game. It uses a linked list to store the game data for each save point. Each node in the linked list, represented by the SaveNode struct, contains the player's data for a particular save.
@@ -118,13 +118,13 @@ Other functions like searchItem and reducedItem provide additional functionality
 By utilizing a linked list for the player's inventory, the code enables efficient insertion, removal, searching, and updating operations on the items. The linked list structure allows for flexibility in managing the inventory and ensures optimal performance even as the inventory size changes dynamically.
 Overall, the linked list data structure plays a crucial role in managing both the story progression and the player's inventory in the game. It provides an efficient and flexible mechanism for storing, organizing, and manipulating data related to the game's progress and the items in the player's possession.
 
-## GAME DESIGN 💻
+## GAME DESIGN  💻
 ![Lost Echoes Game Design](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/Lost%20Echoes.png)
 
-## GAME DEMO VIDEO 📹
+## GAME DEMO VIDEO  📹
 [Lost Echoes Demo Video]()
 
-## CODES 🖥️
+## CODES  🖥️
 Player data   
 [Header file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.h)   
 [Implementation file](https://github.com/aziyya/Hackathon-2-Group-33/blob/main/PlayerData.cpp)   
